@@ -2,7 +2,7 @@
 
 The Liveness Container Image provides a lightweight HTTP server designed to simulate liveness probes and responses, modeled after the Kubernetes agnhost image's liveness server.go available as follows - https://raw.githubusercontent.com/kubernetes/kubernetes/master/test/images/agnhost/liveness/server.go
 
-At the time of writing, that code was last updated in 2014 and the image at registry.k8s.io/liveness is only available for amd64
+At the time of writing, that code was last updated in 2014 and the image at registry.k8s.io/liveness is only available for amd64.
 
 This project serves as a compatible open source implementation, providing similar functionality for educational, testing, and development purposes with multi-arch availability as standard via Docker Hub.
 
