@@ -34,6 +34,6 @@ spec:
       periodSeconds: 3
 ```
 
-## Automated Builds
+## Multi Architecture Builds
 
-This repository makes use of Docker Hub to automate multi-architecture images with full transparency, more details available at https://hub.docker.com/r/spurin/liveness
+This repository makes use of buildx to create multi-architecture images see build.sh
