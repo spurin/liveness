@@ -36,4 +36,4 @@ spec:
 
 ## Multi Architecture Builds
 
-This repository makes use of buildx to create multi-architecture images see build.sh
+This repository makes use of buildx to create multi-architecture images see build.sh at https://github.com/spurin/liveness
