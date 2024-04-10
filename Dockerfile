@@ -24,4 +24,4 @@ COPY --from=builder /app/liveness /liveness
 EXPOSE 8080
 
 # Command to run the executable
-CMD ["/liveness"]
+ENTRYPOINT ["/liveness"]
